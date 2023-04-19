@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24FADA"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:lineSpacingExtra="10sp"
+        android:text="自我介紹"
+        android:textAlignment="center"
+        android:textColor="#1AE8A3"
+        android:textSize="77sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Button
+        android:onClick="sendMessage"
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="姓名"
+        android:textAlignment="center"
+        android:textColor="#A3FF38"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="班級"
+        android:textAlignment="center"
+        android:textColor="#A3FF38"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="學號"
+        android:textAlignment="center"
+        android:textColor="#A3FF38"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="學校"
+        android:textAlignment="center"
+        android:textColor="#A3FF38"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/ans1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="請點擊以上按鈕"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="48sp" />
+
+
+</LinearLayout>
